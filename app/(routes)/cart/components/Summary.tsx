@@ -45,7 +45,7 @@ const Summary = () => {
       <div className="mt-6 space-y-6">
         <div className="flex items-center justify-between border-t border-gray-200 pt-4">
           <div className="text-base font-medium text-gray-900">Order total</div>
-          <Currency value={totalPrice} />
+          <Currency value={totalPrice.toString()} />
         </div>
       </div>
       <Button
