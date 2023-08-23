@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 type Props = {
-  value: number;
+  value: string;
 };
 
 const formater = new Intl.NumberFormat("en-US", {
